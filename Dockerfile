@@ -6,4 +6,4 @@ RUN python -m venv /opt/flask/venv
 RUN . venv/bin/activate && pip install flask_simplelogin
 COPY . /opt/flask
 EXPOSE 5000
-CMD . venv/bin/activate && python simple_app.py
+CMD . venv/bin/activate && python example/simple_app.py
